@@ -137,18 +137,32 @@ nav .follow-buttons {
 @media screen and (max-width: 576px) {
 
     nav,
-    .nav-links {
+    .nav-links,
+    .banner {
         flex-direction: column;
     }
 
     nav {
         padding: 15px 30px;
     }
+
+    .banner-content {
+        padding: 20px;
+    }
+
+    .banner-img, .banner-img img {
+        width: 100%;
+    }
 }
 
 /* tablet devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    nav {
+    nav, .banner {
         flex-direction: column;
+    }
+
+    .banner-content {
+        padding: 35px;
+        margin: 0 auto;
     }
 }
