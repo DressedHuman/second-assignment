@@ -92,10 +92,11 @@ nav .follow-buttons {
     display: flex;
     justify-content: space-between;
     gap: 68px;
+    margin: 0 100px;
 }
 
 .banner-content {
-    padding: 148px 240px;
+    padding: 148px auto;
 }
 
 .banner-content .text-goat {
@@ -125,7 +126,11 @@ nav .follow-buttons {
 
 .banner-img {
     margin-top: 19px;
-    margin-right: 240px;
+}
+
+.banner-img img {
+    width: 100%;
+    max-width: 700px;
 }
 
 
@@ -144,6 +149,10 @@ nav .follow-buttons {
 
     nav {
         padding: 15px 30px;
+    }
+
+    .banner {
+        margin: auto;
     }
 
     .banner-content {
