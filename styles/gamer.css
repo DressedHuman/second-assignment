@@ -144,6 +144,10 @@ figure {
     margin: 0;
 }
 
+figcaption {
+    margin: 0 auto;
+}
+
 /* hover effect */
 .img-container {
     position: relative;
@@ -245,6 +249,19 @@ figcaption {
     .banner-img img {
         width: 100%;
     }
+
+    /* online games section */
+    .online-games .cards-container {
+        grid-template-columns: 1fr;
+    }
+
+    figure {
+        margin-bottom: 20px;
+    }
+
+    figcaption {
+        margin: 0 auto;
+    }
 }
 
 /* tablet devices */
@@ -257,6 +274,15 @@ figcaption {
 
     .banner-content {
         padding: 35px;
+        margin: 0 auto;
+    }
+
+    /* online games section */
+    .online-games .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    figcaption {
         margin: 0 auto;
     }
 }
