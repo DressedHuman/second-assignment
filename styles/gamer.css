@@ -27,6 +27,13 @@ body {
     margin-top: 2rem;
 }
 
+.title-2 {
+    color: rgb(215, 8, 215);
+}
+
+.section-description {
+    color: #534C64;
+}
 
 
 /* nav section styles */
@@ -208,15 +215,35 @@ figcaption {
     margin-bottom: 0;
 }
 
-.games-title-2 {
-    color: rgb(215, 8, 215);
-}
-
 .online-games .section-description {
-    color: #534C64;
     margin-top: 10px;
     margin-bottom: 48px;
 }
+
+
+/* play games section styles */
+.play-games {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.play-games .section-title {
+    text-align: right;
+}
+
+.play-games .section-description {
+    width: 353px;
+    text-align: right;
+}
+
+#img-small {
+    position: relative;
+    top: -200px;
+    left: -100px;
+    border-radius: 8px;
+}
+
 
 
 
