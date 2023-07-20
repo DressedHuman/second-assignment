@@ -5,6 +5,7 @@
 /* shared styles */
 .root {
     --basic-font-color: #534C64;
+    --secondary-font-color: #3C354F;
 }
 
 * {
@@ -63,12 +64,12 @@ nav .nav-links {
     list-style: none;
     font-size: 1.125rem;
     font-weight: 500;
-    color: #3C354F;
+    color: var(--secondary-font-color);
 }
 
 nav a {
     text-decoration: none;
-    color: var(--basic-font-color);
+    color: var(--secondary-font-color);
 }
 
 nav .follow-buttons {
@@ -80,6 +81,42 @@ nav .follow-buttons {
     gap: 1rem;
 }
 
+/* banner section styles */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    gap: 68px;
+}
+
+.banner-content {
+    padding: 148px 240px;
+}
+
+.banner-content .text-goat {
+    font-size: 6rem;
+    color: #FF42A5;
+    font-weight: 800;
+}
+
+
+.banner-content .text-play {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.banner-content p {
+    color: var(--basic-font-color);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.banner-img {
+    margin-top: 19px;
+    margin-right: 240px;
+}
+
 
 
 
@@ -87,7 +124,9 @@ nav .follow-buttons {
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
-    nav, .nav-links {
+
+    nav,
+    .nav-links {
         flex-direction: column;
     }
 
