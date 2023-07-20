@@ -254,6 +254,7 @@ figcaption {
 .game-category {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    margin: 150px auto;
 }
 
 .game-category .category {
